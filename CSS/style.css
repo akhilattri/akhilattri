@@ -236,6 +236,10 @@ background-color:darkslategray;
         height:4px;
         margin: 4px;
     }
+    .secone
+    {
+        height:130%;
+    }
     .box-main
     {
         flex-direction: column-reverse;
