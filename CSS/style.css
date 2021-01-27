@@ -61,11 +61,15 @@ html
     color: black;    
 }
 
+.bgnav
+{
+background-color:darkslategray;
+}
 .background
 {
-    background: rgba(0,0,0,0.7 ) url('../img/bg4.jpg');
+    
+    background-color:whitesmoke;
     background-size: cover;
-    background-blend-mode: darken;
 }
 
 .box-main
@@ -76,13 +80,13 @@ html
     display:flex;
     justify-content: center;
     align-items: center;
-    color:white ;
+    color:brown ;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.firstsection
+.secone
 {
-    height: 100vh;
+    height: 120%;
 }
 
 .firsthalf
@@ -98,7 +102,7 @@ html
 {
     width:30%;
     margin: auto;
-    padding: 0px 70px;
+    padding: 40px 70px;
 }
 
 .secondhalf img
@@ -107,16 +111,19 @@ html
     border: 3px solid black;
     margin:auto;
     border-radius: 10px;
+    background-color: darkslategray;
 }
 
 .text-big
 {
     font-size: 36px;
+    color:lightseagreen;
 }
 
 .text-small
 {
     padding: 15px 0px;
+    color: slategray;
 }
 
 .B1
@@ -133,10 +140,69 @@ html
 }
 .B1 a
 {
-    color: whitesmoke;
+    color:lightseagreen;
     align-items: center;
 }
 
+.sectwo
+{
+    height:500px;
+    background-color: darkslategray;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    padding:15px 50px;
+}
+.secondhead
+{
+    color: whitesmoke;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding: 50px 20px;
+}
+.bullets
+{
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding:20px 50px;
+}
+
+.secthree
+{
+    height:700px;
+    background-color: white;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    padding:15px 50px;
+}
+.thirdhead
+{
+    color:teal;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding: 50px 20px;
+}
+.bulletslast
+{
+    color:darkslategray;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding:20px 50px;
+}
 
 
 @media only screen and (max-width:1400px)
