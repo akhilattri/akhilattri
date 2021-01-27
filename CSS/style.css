@@ -1,0 +1,205 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+.logo
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img
+{
+    width:5%;
+    height:10% ;
+    border:1px solid black;
+    border-radius: 3px;
+}
+
+.navbar
+{
+    display:flex;
+    padding:0px 50px;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    height:auto;
+}
+
+.nav-list
+{
+    width:70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li
+{
+    list-style: none;
+    padding: 30px 0px;
+}
+
+
+.nav-list li a
+{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 0px 30px;
+}
+
+.nav-list li a:hover
+{
+    text-decoration: none;
+    color: black;    
+}
+
+.background
+{
+    background: rgba(0,0,0,0.7 ) url('../img/bg4.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main
+{
+    height: 100%;
+    max-width: 60%;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.firstsection
+{
+    height: 100vh;
+}
+
+.firsthalf
+{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 5px;
+    
+}
+.secondhalf
+{
+    width:30%;
+    margin: auto;
+    padding: 0px 70px;
+}
+
+.secondhalf img
+{
+    width: 150%;
+    border: 3px solid black;
+    margin:auto;
+    border-radius: 10px;
+}
+
+.text-big
+{
+    font-size: 36px;
+}
+
+.text-small
+{
+    padding: 15px 0px;
+}
+
+.B1
+{
+    display: flex;
+    background: none;
+    color: white;
+    font-size: 17px;    
+    border-radius: 10px;
+    padding: 4px 12px;
+    margin: 25px 0px;
+    border:2px solid black;
+    align-items: center;
+}
+.B1 a
+{
+    color: whitesmoke;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width:1400px)
+{
+    .nav-list
+    {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .navbar
+    {
+        height:312px;
+        flex-direction: column;
+        transition:all 0.4s ease-out;
+    }
+    .logo img
+    {
+        height:auto;    
+    }
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right:20px;
+        top:20px;
+    }
+    .line
+    {
+        width:25px;
+        background-color: white;
+        height:4px;
+        margin: 4px;
+    }
+    .box-main
+    {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .secondhalf img
+    {   
+        width: 100%;
+        margin: auto;
+    }
+    .text-big
+    {
+        text-align: center;
+    }
+    .text-small
+    {
+        padding : 20px 2px;
+        text-align: center;
+    }
+    .B1
+    {
+        align-items: center;
+        margin: 25px auto;
+    }
+    .hid-resp
+    {
+        height: 70px;
+    }
+    .vis-resp
+    {
+        opacity:0;
+    }
+}
